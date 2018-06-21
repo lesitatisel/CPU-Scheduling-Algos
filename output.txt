@@ -1,0 +1,41 @@
+$ java Prog -alg FIFO  -input file.txt
+Input File Name                 : file.txt
+CPU Scheduling Alg              : FIFO
+CPU utilization                 : 85.77235772357723
+Throughput                      : 0.012195121951219513
+Turnaround time                 : 204.66666666666666
+Waiting time                    : 70.66666666666667
+Response time                   : 10.333333333333334
+
+Total Execution time is 0.249 seconds
+
+Input File Name                 : file.txt
+CPU Scheduling Alg              : SJF
+CPU utilization                 : 85.77235772357723
+Throughput                      : 0.012195121951219513
+Turnaround time                 : 204.66666666666666
+Waiting time                    : 70.66666666666667
+Response time                   : 10.333333333333334
+
+Total Execution time is 0.249 seconds
+Input File Name                 : file.txt
+CPU Scheduling Alg              : PR
+CPU utilization                 : 85.77235772357723
+Throughput                      : 0.012195121951219513
+Turnaround time                 : 204.33333333333334
+Waiting time                    : 70.66666666666667
+Response time                   : 10.333333333333334
+
+Total Execution time is 0.248 seconds
+
+~/OperationSystems/J/FCFS$ java Prog -alg RR -quantum 2 -input file.txt
+Input File Name                 : file.txt
+CPU Scheduling Alg              : RR (2)
+CPU utilization                 : 79.77941176470588
+Throughput                      : 0.011029411764705883
+Turnaround time                 : 247.66666666666666
+Waiting time                    : 109.66666666666667
+Response time                   : 2.3333333333333335
+
+Total Execution time is 0.275 seconds
+
